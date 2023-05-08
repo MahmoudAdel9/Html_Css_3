@@ -1317,29 +1317,29 @@ input[type=checkbox]:checked::before {
 
 input[type=radio]:before {
 	content: "";
-	display: block;
-	position: absolute;
-	width: 22px;
-	height: 22px;
-	border-radius: 50%;
-	left: 0px;
-	top: -20px;
-	border: 3px solid var(--c-blue);
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 0px;
+    top: -17px;
+    border: 2px solid var(--c-blue);
 }
 
 input[type=radio]:checked:after {
 	content: "";
-	position: absolute;
-	width: 18px;
-	height: 18px;
-	left: 5px;
-	top: -15px;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--c-blue);
-	cursor: pointer;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 4px;
+    top: -13px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-blue);
+    cursor: pointer;
 }
 
 .rad {
