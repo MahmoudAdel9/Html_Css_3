@@ -506,7 +506,7 @@ main .head-section {
 
 
 .card1 .container-row {
-    padding: 40px 20px;
+	padding: 40px 20px;
 	gap: 20px;
 	width: 100%;
 	text-align: center;
@@ -2117,6 +2117,7 @@ figure .title-small p {
 	.card12-logo {
 		margin-right: 10px;
 	}
+
 	.card11 .container-col>p {
 		font-size: 1.7rem;
 	}
@@ -2124,12 +2125,14 @@ figure .title-small p {
 	.m-s-course .title-small p {
 		font-size: 1.6rem;
 	}
+
 	.card9 .ff::after {
 		bottom: -36px !important;
-		height: 33px !important;	
+		height: 33px !important;
 	}
+
 	main section {
-		padding: 25px 12px;	
+		padding: 25px 12px;
 	}
 
 	.svg img {
@@ -2139,8 +2142,34 @@ figure .title-small p {
 }
 
 @media (max-width: 767px) {
-	
+
 	.title {
 		font-size: 2rem;
+	}
+
+	.pic {
+		margin: 0;
+	}
+
+	.title::before {
+		right: -60px;
+	}
+}
+
+@media (max-width: 360px) {
+	.card9 .circle:not(.last):after {
+		position: absolute;
+		content: '';
+		left: 50%;
+		bottom: -36px;
+		translate: -50%;
+		width: 3px;
+		height: 32px;
+		background-color: #0075ff;
+	}
+
+	.animation::after {
+		height: 38px !important;
+		bottom: -42px !important;
 	}
 }
