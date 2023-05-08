@@ -2079,7 +2079,7 @@ figure .title-small p {
 
 
 /* small-mobile */
-@media (max-width: 375px) {
+@media (max-width: 390px) {
 	.mid-section {
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	}
@@ -2130,4 +2130,8 @@ figure .title-small p {
 	.card9 .ff::after {
 		bottom: -32px !important;
 	}
+	main section {
+		padding: 25px 12px;	
+	}
+
 }
