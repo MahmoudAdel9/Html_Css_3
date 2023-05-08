@@ -892,7 +892,7 @@ textarea {
 		width: 3px;
 		background-color: #0075ff;
 		bottom: -30px !important;
-		height: 28px !important;
+		height: 27px !important;
 	}
 }
 
@@ -2084,9 +2084,6 @@ figure .title-small p {
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	}
 
-	.title {
-		font-size: 2rem;
-	}
 
 	.card1 .container-row {
 		gap: 15px;
@@ -2139,4 +2136,11 @@ figure .title-small p {
 		margin-left: -5px;
 	}
 
+}
+
+@media (max-width: 767px) {
+	
+	.title {
+		font-size: 2rem;
+	}
 }
