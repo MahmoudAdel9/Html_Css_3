@@ -2128,10 +2128,15 @@ figure .title-small p {
 		font-size: 1.6rem;
 	}
 	.card9 .ff::after {
-		bottom: -32px !important;
+		bottom: -36px !important;
+		height: 33px !important;	
 	}
 	main section {
 		padding: 25px 12px;	
+	}
+
+	.svg img {
+		margin-left: -5px;
 	}
 
 }
