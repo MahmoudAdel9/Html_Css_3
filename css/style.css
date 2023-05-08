@@ -508,6 +508,7 @@ main .head-section {
 .card1 .container-row {
 	padding: 40px;
 	width: 100%;
+	gap: 20px;
 	text-align: center;
 	position: relative;
 }
