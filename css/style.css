@@ -159,6 +159,9 @@ aside {
 }
 
 
+aside a {
+	width: 100%;
+}
 /* mobile */
 @media (max-width: 767px) {
 	aside {
